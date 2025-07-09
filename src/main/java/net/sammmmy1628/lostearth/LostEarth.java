@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.sammmmy1628.lostearth.item.ModCreativeModeTabs;
 import net.sammmmy1628.lostearth.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,6 +27,8 @@ public class LostEarth {
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

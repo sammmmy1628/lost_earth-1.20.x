@@ -18,6 +18,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.GOLD_COIN);
+        simpleItem(ModItems.SUN_SIGIL);
+        simpleItem(ModItems.TOTEM_OF_SPIRIT_MASK);
+        simpleItem(ModItems.VEIL_OF_MIST);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

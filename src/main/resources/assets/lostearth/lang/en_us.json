@@ -1,3 +1,8 @@
 {
-  "item.lostearth.gold_coin": "Gold Coin"
+  "item.lostearth.gold_coin": "Gold Coin",
+  "item.lostearth.totem_of_spirit_mask": "Totem of Spirit Mask",
+  "item.lostearth.sun_sigil": "Sun Sigil",
+  "item.lostearth.veil_of_mist": "Veil of Mist",
+
+  "creativetab.lost_earth": "Lost of Earth"
 }
